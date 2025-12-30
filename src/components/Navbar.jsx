@@ -24,7 +24,7 @@ const Navbar = () => {
               <img src={img} className="icon-hover" alt={`icon-${id}`} />
             </li>
           ))}
-        </ul>
+        </ul> 
         <time>{dayjs().format("ddd MMM D h:mm A")}</time>
       </div>
     </nav>
